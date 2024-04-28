@@ -7,6 +7,7 @@ Local Mapping: The current frame is used to create new 3-D map points if it is i
 Loop Closure: Loops are detected for each key frame by comparing it against all previous key frames using the bag-of-features approach. Once a loop closure is detected, the pose graph is optimized to refine the camera poses of all the key frames.
 Optimizing Poses: A similarity pose graph optimization is performed over the essential graph in vSetKeyFrames to correct the drift of camera poses. The essential graph is created internally by removing connections with fewer than minNumMatches matches in the covisibility graph. After similarity pose graph optimization, update the 3-D locations of the map points using the optimized poses and the associated scales.
 
+Results
 ![result](image.png)
 
 Discussion on Implementing a Visual SLAM Application: Implementing a visual SLAM application would involve the following steps:
