@@ -20,9 +20,8 @@ Local Mapping and Loop Closure: As new key frames are added, i would update the 
 Optimization: Finally, it would perform global optimization (such as bundle adjustment or pose graph optimization) to refine the map and camera trajectory.
 Integration with Other Systems: Depending on your application, you might also need to integrate your visual SLAM system with other systems. For example, in a robot navigation application, you would need to integrate with path planning and control systems.
 
-Step 2
+Step 2code:
 
-code:
 cameraCalibrator
 imds = imageDatastore('C:\Users\evanh\OneDrive\Documents\MATLAB');
 reset(imds);  
@@ -78,5 +77,6 @@ figure;
 plotCamera('Location', location, 'Orientation', orientation, 'Size', 0.1);
 hold on;
 
-Result
+Result:
+
 
