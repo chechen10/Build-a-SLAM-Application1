@@ -78,7 +78,7 @@ plotCamera('Location', location, 'Orientation', orientation, 'Size', 0.1);
 hold on;
 
 Result:
-![result](5.png)
+![result](4.png)
 ![result](image.png)
 ![result](3.png)
 ![result](2.png)
