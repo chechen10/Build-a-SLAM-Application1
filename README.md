@@ -8,7 +8,7 @@ Loop Closure: Loops are detected for each key frame by comparing it against all 
 Optimizing Poses: A similarity pose graph optimization is performed over the essential graph in vSetKeyFrames to correct the drift of camera poses. The essential graph is created internally by removing connections with fewer than minNumMatches matches in the covisibility graph. After similarity pose graph optimization, update the 3-D locations of the map points using the optimized poses and the associated scales.
 
 Results
-![result](image.png)
+![result](5.png)
 
 Discussion on Implementing a Visual SLAM Application: Implementing a visual SLAM application would involve the following steps:
 Sensor Selection: 
