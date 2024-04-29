@@ -78,5 +78,7 @@ plotCamera('Location', location, 'Orientation', orientation, 'Size', 0.1);
 hold on;
 
 Result:
+![result](image.png)
+
 
 
